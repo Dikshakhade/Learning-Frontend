@@ -1,0 +1,12 @@
+#container {
+  column-count: 2;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: plum;
+  margin: 10px;
+}
+.box:nth-child(2) {
+  column-span: all;
+}
